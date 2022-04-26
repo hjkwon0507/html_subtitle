@@ -5,7 +5,7 @@ var app=new Vue({
     },
     methods:{
         // 비디오 업로드
-        uploadVideo: function(){
+        uploadVideo () {
             const inputFile = document.getElementById("file");
             const video = document.getElementById("video");
             const file = inputFile.files[0];
